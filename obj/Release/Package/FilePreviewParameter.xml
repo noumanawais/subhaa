@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="free-chat" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\mian\\Downloads\\concurrentprj\\concurrentprj\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\mian\\Downloads\\concurrentprj\\concurrentprj\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="cpEntities-Web.config Connection String" description="" value="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=NOUMAN-THEEPA;Initial Catalog=ChatApplication;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\mian\\Downloads\\concurrentprj\\concurrentprj\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cpEntities']/@connectionString" />
+  </parameter>
+</parameters>
